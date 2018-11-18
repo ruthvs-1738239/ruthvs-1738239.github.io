@@ -1,0 +1,56 @@
+p{
+    font-size:24px;
+}
+
+#font1{font-family: Ayuthaya;}
+#font2{font-family: Kefa;}
+
+img{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+
+.textContainer{
+    border: 4px dotted black;
+    padding-left: 15px;
+}
+
+#showImages{
+    background-color: #ececec;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    width: 1024px;
+    float: right;
+    position: relative;
+}
+
+.centered-text{
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    bottom: 64px;
+    left: 36px;
+    color: black;
+}
+
+table {
+    font-family: Constantia;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 6px 4px #cccccc;
+}
+
+td, th {
+    border: 1px solid #020202;
+    text-align: left;
+    padding: 15px;
+}
+
+th{
+    text-align: center !important;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
